@@ -15,8 +15,8 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Zebba\\Bundle\\TwigExtensionBundle\\": ""
+			"Zebba\\Bundle\\ValidatorBundle\\": ""
 		}
 	},
-	"target-dir": "Zebba/Bundle/TwigExtensionBundle"
+	"target-dir": "Zebba/Bundle/ValidatorBundle"
 }
