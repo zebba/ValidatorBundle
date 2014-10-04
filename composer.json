@@ -1,28 +1,22 @@
 {
-	"name" : "zebba/validator-bundle",
-	"type" : "library",
-	"description" : "Zebba Validator Bundle",
-	"homepage" : "https://github.com/zebba/ValidatorBundle",
-	"license" : "MIT",
-	"authors" : [{
-			"name" : "Sebastian Kuhlmann",
-			"email" : "zebba@hotmail.de"
+	"name": "zebba/validator-bundle",
+	"type": "bundle",
+	"description": "Zebba Validator Bundle",
+	"homepage": "https://github.com/zebba/ValidatorBundle",
+	"license": "MIT",
+	"authors": [{
+			"name": "Sebastian Kuhlmann",
+			"email": "zebba@hotmail.de"
 		}
 	],
-	"require" : {
-		"php" : ">=5.3.1",
-		"symfony/symfony" : ">2.1,<3.0"
+	"require": {
+		"php": ">=5.3.1",
+		"symfony/symfony": ">2.1,<3.0"
 	},
-	"autoload" : {
-		"psr-0" : {
-			"Zebba\\Bundle\\TwigExtensionBundle\\" : ""
+	"autoload": {
+		"psr-0": {
+			"Zebba\\Bundle\\TwigExtensionBundle\\": ""
 		}
 	},
-	"target-dir" : "Zebba/Bundle/TwigExtensionBundle",
-	"minimum-stability" : "dev",
-	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "master"
-		}
-	}
+	"target-dir": "Zebba/Bundle/TwigExtensionBundle"
 }
